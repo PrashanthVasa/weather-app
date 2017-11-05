@@ -1,6 +1,7 @@
 const request = require('request');
 
 var getWeather = (latitude,longitude,callback)=>{
+    //console.log("hai");
     request({
         url:"https://api.darksky.net/forecast/e2ed8a9d16e27ce304d193d8e238b7ec/"+latitude+","+longitude,
         json:true

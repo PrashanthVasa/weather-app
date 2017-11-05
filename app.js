@@ -35,5 +35,3 @@ geocode.geocodeAddress(argv.address,(errorMessage,results)=>{
 
 //e2ed8a9d16e27ce304d193d8e238b7ec
 
-var latitude = "40.2884395";
-var longitude = "-75.2090623";

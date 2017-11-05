@@ -16,7 +16,10 @@ var geocodeAddress = (address,callback) => {
                 Lattitude: +body.results[0].geometry.location.lat,
                 Longitude: +body.results[0].geometry.location.lng
             });
-        }    
+        //console.log("hello");    
+        }
+            
     });
+    
 };
 module.exports.geocodeAddress = geocodeAddress;
